@@ -1,6 +1,7 @@
 // C++ Design Patterns: Thread-safe Singleton
 // 
 // Author: wangmaolin
+#include <iostream>
 #include <pthread.h>
 #include <stdlib.h>
 
@@ -15,6 +16,8 @@ class Singleton
     pthread_once(&ponce_, &Singleton::init);
     return *instance_;
   }
+
+  void print() { std::cout << "Singlaton" << std::endl; }
 
 private:
   Singleton() = default;
