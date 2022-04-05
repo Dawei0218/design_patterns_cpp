@@ -6,6 +6,8 @@
 using std::cout;
 using std::endl;
 
+// 设计了一个parser，可以包含json、xml、yaml
+
 // parse基类
 class IParser
 {
