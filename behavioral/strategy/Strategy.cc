@@ -1,4 +1,4 @@
-// C++ Design Patterns: Decorator Design pattern
+// C++ Design Patterns: Strategy Design pattern
 //
 // Author: wangmaolin
 
